@@ -74,13 +74,29 @@ WSGI_APPLICATION = 'Task_Day_Counter.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+
+        'USER': 'postgres',
+
+        'PASSWORD': '4QabdCkKCkygxYNbSLb0',
+
+        'HOST': 'containers-us-west-200.railway.app',
+
+        'PORT': '7217',
+  
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
