@@ -94,7 +94,7 @@ DATABASES = {
 
         'HOST': 'containers-us-west-200.railway.app',
 
-        'PORT': '7217   ',
+        'PORT': '7217',
   
     }
 }
