@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-#du0t8-n7m1^#wuu8elt_ei+i=db75g=4!_za63!)*1@uf$$g6
 DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app']
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -93,7 +94,7 @@ DATABASES = {
 
         'HOST': 'containers-us-west-200.railway.app',
 
-        'PORT': '7217',
+        'PORT': '7217   ',
   
     }
 }
